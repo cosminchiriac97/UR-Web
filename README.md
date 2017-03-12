@@ -1,6 +1,6 @@
 # UR-Web
 
-Our team:
+Our team:  
   -> Chiriac Cosmin  
   -> Giosanu George  
   -> Guler Afanasie  
