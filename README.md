@@ -16,3 +16,5 @@ _ Grupa:B1 Anul:2_
 - **Serverul**: Va oferi rapid informații din baza de date și va ajuta la gestionarea formularelor de înscriere depuse de către candidați ( utilizatori ), precum și rezultatele admiterii.
 - **Administratorul serverului**: Va afișa informații cu privire la susținerea examenului, rezultatele, și anunțuri de interes pentru utilizatori.
 
+## 3.Scenarii de utilizare
+
