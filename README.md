@@ -12,8 +12,6 @@ _ Grupa:B1 Anul:2_
 
 ## 2.Actori & Obiective
    - **Utilizatorul**: Absolvent de liceu, sau licențiat într-un domeniu, ce se va putea înscrie online pentru admitere sau master
-
 - **Clientul**: Secretariatul facultații sau profesorii. Ei vor putea gestiona candidații pentru admitere sau înscriere la master, precum și gestionarea rezultatelor admiterii.
 - **Serverul**: Va oferi rapid informații din baza de date și va ajuta la gestionarea formularelor de înscriere depuse de către candidați ( utilizatori ), precum și rezultatele admiterii.
-
-	- **Administratorul serverului**: Va afișa informații cu privire la susținerea examenului, rezultatele, și anunțuri de interes pentru utilizatori.
+- **Administratorul serverului**: Va afișa informații cu privire la susținerea examenului, rezultatele, și anunțuri de interes pentru utilizatori.
