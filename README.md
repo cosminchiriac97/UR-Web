@@ -18,6 +18,9 @@ _ Grupa:B1 Anul:2_
 
 ## 3. Scenarii de utilizare
 
-- ### Solicitarea informațiilor de către utilizator: 
+- ### Solicitarea informațiilor de către utilizator
+Utilizatorul poate vizualiza lista cu informații legate de admitere, cerințele minime de depunere a unui dosar de înscriere online și detalii despre examen. De asemenea, el poate cere informații suplimentare, apelând sau trimițând un mail la secretariatul facultății, datele de contact regăsindu-se tot pe pagina web.
+
+- ### Completarea formularului de înscriere la examen
 
 
