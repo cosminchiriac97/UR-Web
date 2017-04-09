@@ -32,6 +32,8 @@ Utilizatorul completează un formular cu datele necesare pentru înscrierea la e
 Serverul va primi formularele completate de către utilizatori și le va stoca într-o bază de date.
 Clientul va avea acces la baza de date, va putea vizualiza cererile de înscrierere și va trimite un feedback generat automat către utilizator: acceptat în examen, acceptat la facultate (pentru olimpici), dosar respins sau date incomplete/eronate. În momentul în care clientul va accepta un utilizator în vederea susținerii examenului, serverul va marca respectiva persoană în baza de date și va fi capabil să genereze listele cu toți studenții ce vor susține examenul și repartiția pe săli a acestora.
 
+- ### Afișarea rezultatelor
+
 
 
 
