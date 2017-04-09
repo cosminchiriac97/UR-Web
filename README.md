@@ -23,9 +23,11 @@ Va afișa informații cu privire la susținerea examenului, rezultatele, și anu
 ## 3. Scenarii de utilizare
 
 - ### Solicitarea informațiilor de către utilizator
+
 Utilizatorul poate vizualiza lista cu informații legate de admitere, cerințele minime de depunere a unui dosar de înscriere online și detalii despre examen. De asemenea, el poate cere informații suplimentare, apelând sau trimițând un mail la secretariatul facultății, datele de contact regăsindu-se tot pe pagina web.
 
 - ### Completarea formularului de înscriere la examen
+
 Utilizatorul completează un formular cu datele necesare pentru înscrierea la examen și va primi mai apoi un mail prin care va fi notificat că datele au fost primite de serverul facultății și va trebui să aștepte o noua confirmare, din partea secretariatului, cu privire la validitatea datelor trimise și acceptarea sau nu în examenul de admitere. De asemenea, pentru cazul în care utilizatorul este olimpic național, el va fi înștiințat că este admis la facultate.
 - ### Primirea și prelucrarea informațiilor
 
@@ -34,6 +36,7 @@ Clientul va avea acces la baza de date, va putea vizualiza cererile de înscrier
 
 - ### Afișarea rezultatelor
 
+Administratorul serverului va centraliza toate rezultatele în urma examenului de admitere și îi va înștiința pe cei care sunt admiși în urma concursului prin trimitere de notificări și e-mail. 
 
 
 
