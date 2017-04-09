@@ -38,6 +38,9 @@ Clientul va avea acces la baza de date, va putea vizualiza cererile de înscrier
 
 Administratorul serverului va centraliza toate rezultatele în urma examenului de admitere și îi va înștiința pe cei care sunt admiși în urma concursului prin trimitere de notificări și e-mail. 
 
+- ### Pregătirea pentru sesiunea următoare###
+
+
 
 
 
