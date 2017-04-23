@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignUp Beta1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="qr/VanillaQR.js"></script>
+    <link href="SignUp.css" rel="stylesheet" type="text/css">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <script src="SignUp-js.js" type="text/javascript"></script>
+
+    
+    
+
+</head>
+
+<body>
+
+
+    <div class="main">
+        <div><img src="logo.svg"> </div>
+        <fieldset id="first">
+            <h2 class="title">Create your account</h2>
+            <p class="subtitle">Step 1</p>
+            <input id="email" class="text_field" name="email" placeholder="Email" type="text" value="">
+            <input class="text_field" name="first-name" placeholder="First Name" type="text" value="">
+            <input class="text_field" name="last-name" placeholder="Last Name" type="text" value="">
+            <input class="text_field" name="pass" placeholder="Password" type="password" value="">
+            <input class="text_field" name="cpass" placeholder="Confirm Password" type="password" value="">
+            <input id="next_btn1" onclick="next_step1()" type="button" value="Next">
+        </fieldset>
+
+        <fieldset id="second">
+            <h2 class="title">Let us know a few things about you</h2>
+            <p class="subtitle">Step 2</p>
+            <input class="text_field" name="fav-food" placeholder="Favourite Food" type="text" value="">
+            <input class="text_field" name="fav-movie" placeholder="Favourite Movie" type="text" value="">
+            <input class="text_field" name="fav-museum" placeholder="Favourite Museum" type="text">
+            <input id="pre_btn1" onclick="prev_step1()" type="button" value="Previous">
+            <input id="next_btn2" name="next" onclick="next_step2()" type="button" value="Next">
+        </fieldset>
+
+        <fieldset id="third">
+            <h2 class="title">Your Qr Code</h2>
+            <p class="subtitle">Step 3</p>
+            <div id="qrimg"> </div>
+            <input id="pre_btn2" onclick="prev_step2()" type="button" value="Previous">
+            <input id="download" onclick="validation(event)" type="button"  value="Download QR">
+            <input class="submit_btn" onclick="validation(event)" type="submit" value="Submit">
+        </fieldset>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

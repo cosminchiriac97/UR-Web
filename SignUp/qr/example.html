@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>VanillaQR</title>
+    <script src="VanillaQR.js"></script>
+</head>
+
+<body>
+
+    <script>
+
+    var qr = new VanillaQR({
+        url: "http://example.com",
+        width: 400,
+        height: 400,
+        colorLight: "#FAA7F9",
+        colorDark: "#3A005E",
+
+        toTable: true
+    });
+
+    var qrTableBroder = new VanillaQR({
+        url: "http://example.com",
+        width: 400,
+        height: 400,
+        colorLight: "#FAA7F9",
+        colorDark: "#3A005E",
+        toTable: true,
+
+        borderSize: 10
+    });
+
+    var qr2 = new VanillaQR({
+        url: "http://example.com",
+        width: 400,
+        height: 400,
+        colorLight: "#FAA7F9",
+        colorDark: "#3A005E"
+    });
+
+    var qr3 = new VanillaQR({
+        url: "http://example.com",
+        width: 400,
+        height: 400,
+        colorLight: "#FAA7F9",
+        colorDark: "#3A005E",
+
+        noBorder: true
+    });
+
+    var qr4 = new VanillaQR({
+        url: "http://example.com",
+        width: 400,
+        height: 400,
+        colorLight: "#FAA7F9",
+        colorDark: "#3A005E",
+
+        toTable: true,
+
+        noBorder: true
+    });
+
+    var createTitle = function(title) {
+        var h2 = document.createElement("h2");
+        h2.innerHTML = title;
+        return h2;
+    }
+
+    document.body.appendChild(createTitle("Table"));
+    document.body.appendChild(qr.domElement);
+
+    document.body.appendChild(createTitle("Table with big border"));
+    document.body.appendChild(qrTableBroder.domElement);
+
+    document.body.appendChild(createTitle("Table without border"));
+    document.body.appendChild(qr4.domElement);
+
+    document.body.appendChild(createTitle("Canvas"));
+    document.body.appendChild(qr2.domElement);
+
+        document.body.appendChild(createTitle("Canvas without border"));
+    document.body.appendChild(qr3.domElement);
+
+    var imageElement = qr2.toImage("png");
+    if(imageElement) {
+        document.body.appendChild(createTitle("Canvas Image"));
+        document.body.appendChild(imageElement);
+    }
+
+    </script>
+
+</body>
+</html>

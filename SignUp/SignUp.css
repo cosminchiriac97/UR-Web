@@ -1,0 +1,223 @@
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";  /* This Line is to import Google font style */
+
+
+* { 
+box-sizing: border-box; }
+
+img {
+    display: block;
+    margin: 0 auto;
+    width:80%;
+ 
+}
+ @media screen and (min-width: 300px)
+        {
+                .main{
+                    margin: auto;
+                    width: 80%;
+                    margin-top:15%;
+                    margin-left: 8%;
+                    }
+             input[type=button],input[type=submit],input[id=download]{
+                        font-size: 70%;
+                        height:30px;
+             }
+             input[type=text],input[type=password]{
+                        font-size: 70%;
+                        height:30px;
+                        margin:4px 0;
+              }
+             #first,fieldset{
+                    padding:7px;
+              }
+            h2,p2{
+                  font-size: 100%;
+            }
+        }
+ @media screen and (min-width: 500px)
+        {
+                .main{
+                    margin: auto;
+                    width: 80%;
+                    margin-top:15%;
+                    margin-left: 6%;
+                    }
+                   input[type=button],input[type=submit],input[id=download]{
+                        font-size: 110%;
+                        height:35px;
+                   }
+                   input[type=text],input[type=password]{
+                        font-size: 110%;
+                        height:35px;
+                        margin:5px 0;
+                   } 
+                #first,fieldset{
+                    padding:15px;
+              }     
+               h2,p2{
+                  font-size: 120%;
+            }   
+        }
+ @media screen and (min-width: 600px)
+        {
+                .main{
+                    margin: auto;
+                    width: 70%;
+                    margin-top:10%;
+                    margin-left: 12%;
+                    }
+             input[type=button],input[type=submit],input[id=download]{
+                         font-size: 110%;
+                         height:40px;
+             }
+             input[type=text],input[type=password]{
+                        font-size: 110%;
+                        height:40px;
+                        margin:6px 0;
+              }
+             #first,fieldset{
+                    padding:20px;
+              }
+             h2,p2{
+                  font-size: 150%;
+             }
+        }
+@media screen and (min-width: 800px)
+        {
+             .main{
+                    margin: auto;
+                    width: 60%;
+                    margin-top:5%;
+             }
+             input[type=button],input[type=submit],input[id=download]{
+                        font-size: 120%;
+                        height:40px;
+             }
+             input[type=text],input[type=password]{
+                        font-size: 120%;
+                        height:40px;
+                        margin:7px 0;
+              }
+             #first,fieldset{
+                    padding:20px;
+              }
+            h2,p2{
+                  font-size: 200%;
+            }
+
+    }
+@media screen and (min-width: 1000px)
+        {
+             .main{
+                    margin: auto;
+                    width: 55%;
+                    margin-top:3%;
+             }     
+             input[type=button],input[type=submit],input[id=download]{
+                        font-size: 130%;
+                        height:50px;
+               }
+             input[type=text],input[type=password]{
+                        margin:7px 0;
+                        font-size: 130%;
+                        height:40px;
+              }
+              #first,fieldset{
+                    padding:20px;
+              }
+               h2,p2{
+                  font-size: 200%;
+              }
+ }
+@media screen and (min-width: 1200px)
+        {
+             .main{
+                    margin: auto;
+                    width: 35%;
+                    margin-top:3%;
+             } 
+              input[type=button],input[type=submit],input[id=download]{
+                        font-size: 130%;
+                        height:50px;
+               }
+             input[type=text],input[type=password]{
+                        margin:7px 0;
+                        font-size: 130%;
+                        height:40px;
+              }   
+              #first,fieldset{
+                    padding:20px;
+              }
+              h2,p2{
+                  font-size: 200%;
+              }
+        }
+#secondlog{
+display:block;
+width: 100%;
+margin-top:3%;
+border-radius:5px;
+box-shadow:3px 3px 5px 1px white
+}
+
+fieldset{
+display:none;
+margin: auto;
+width:100%;
+margin-top: 5%;
+border-radius:5px;
+box-shadow:3px 3px 20px 1px gray;
+}
+#first{
+display:block;
+margin: auto;
+width:100%;
+margin-top: 5%;
+border-radius:5px;
+box-shadow:3px 3px 20px 1px gray;
+}
+#qrimg{
+    display:block;
+    margin: auto;
+    width: 80%;
+}
+input[type=text],input[type=password]{
+width:100%;
+padding:3px;
+border:3px solid #ccc;
+border-radius:4px;
+font-family:'Droid Serif',serif;
+}
+
+input[type=submit],input[type=button]{
+width:30%;
+margin:auto 0;
+padding:5px;
+cursor: pointer;
+background-color:#ccc;
+border:none;
+border-radius:4px;
+color:#fff;
+font-family:'Droid Serif',serif;
+}
+
+input[id=download]{
+width:35%;
+margin:auto 0;
+padding:5px;
+
+cursor: pointer;
+background-color:#ccc;
+border:none;
+border-radius:4px;
+color:#fff;
+text-align: center;
+font-family:'Droid Serif',serif;
+}
+
+h2,p{
+text-align:center;
+font-family:'Droid Serif',serif;
+}
+
+
