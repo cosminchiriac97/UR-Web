@@ -1,0 +1,222 @@
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";  /* This Line is to import Google font style */
+
+
+* { 
+box-sizing: border-box; }
+
+img {
+    display: block;
+    margin: 0 auto;
+    width:80%;
+ 
+}
+
+ @media screen and (min-width: 300px)
+        {
+                .main{
+                    margin: auto;
+                    width: 90%;
+                    margin-top:15%;
+                    margin-left: 3%;
+                    }
+             input[type=button],input[type=submit]{
+                        font-size: 70%;
+                        height:30px;
+             }
+             input[type=text],input[type=password]{
+                        font-size: 70%;
+                        height:30px;
+                        margin:4px 0;
+              }
+             #first,fieldset{
+                    padding:7px;
+              }
+            h2,p2{
+                  font-size: 100%;
+            }
+        }
+ @media screen and (min-width: 500px)
+        {
+                .main{
+                    margin: auto;
+                    width: 80%;
+                    margin-top:15%;
+                    margin-left: 6%;
+                    }
+                   input[type=button],input[type=submit]{
+                        font-size: 110%;
+                        height:35px;
+                   }
+                   input[type=text],input[type=password]{
+                        font-size: 110%;
+                        height:35px;
+                        margin:5px 0;
+                   } 
+                #first,fieldset{
+                    padding:15px;
+              }     
+               h2,p2{
+                  font-size: 120%;
+            }   
+        }
+    
+ @media screen and (min-width: 600px)
+        {
+                .main{
+                    margin: auto;
+                    width: 70%;
+                    margin-top:10%;
+                    margin-left: 12%;
+                    }
+             input[type=button],input[type=submit]{
+                         font-size: 110%;
+                         height:40px;
+             }
+             input[type=text],input[type=password]{
+                        font-size: 110%;
+                        height:40px;
+                        margin:6px 0;
+              }
+             #first,fieldset{
+                    padding:20px;
+              }
+             h2,p2{
+                  font-size: 150%;
+             }
+        }
+
+@media screen and (min-width: 800px)
+        {
+             .main{
+                    margin: auto;
+                    width: 60%;
+                    margin-top:3%;
+             }
+             input[type=button],input[type=submit]{
+                        font-size: 120%;
+                        height:40px;
+             }
+             input[type=text],input[type=password]{
+                        font-size: 120%;
+                        height:40px;
+                        margin:8px 0;
+              }
+             #first,fieldset{
+                    padding:20px;
+              }
+            h2,p2{
+                  font-size: 200%;
+            }
+
+    }
+
+@media screen and (min-width: 1000px)
+        {
+             .main{
+                    margin: auto;
+                    width: 55%;
+                    margin-top:2%;
+             }     
+             input[type=button],input[type=submit]{
+                        font-size: 130%;
+                        height:40px;
+               }
+             input[type=text],input[type=password]{
+                        margin:10px 0;
+                        font-size: 130%;
+                        height:40px;
+              }
+              #first,fieldset{
+                    padding:20px;
+              }
+               h2,p2{
+                  font-size: 200%;
+              }
+
+ }
+ 
+@media screen and (min-width: 1200px)
+        {
+             .main{
+                    margin: auto;
+                    width: 35%;
+                    margin-top:2%;
+             } 
+              input[type=button],input[type=submit]{
+                        font-size: 130%;
+                        height:40px;
+               }
+             input[type=text],input[type=password]{
+                        margin:10px 0;
+                        font-size: 130%;
+                        height:40px;
+              }   
+              #first,fieldset{
+                    padding:20px;
+              }
+              h2,p2{
+                  font-size: 200%;
+              }
+}
+
+video{ 
+    border: 1px solid #ccc; 
+    padding: 10px; margin: 10px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px; /* tranzitionstransitions applied to the vodeovideo element */
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out; 
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    stransition: all 1s ease-in-out;
+}
+
+
+fieldset{
+display:none;
+width:100%;
+margin-top:5%;
+border-radius:5px;
+box-shadow:3px 3px 5px 3px gray
+}
+#first{
+display:block;
+width:100%;
+margin-top:5%;
+border-radius:5px;
+box-shadow:3px 3px 5px 3px gray
+}
+
+#secondfirst{
+display:block;
+width: 100%;
+margin-top:3%;
+padding: 0px;
+border-radius:5px;
+box-shadow:3px 3px 5px 1px white
+}
+
+input[type=text],input[type=password]{
+width:100%;
+margin:10px 0;
+padding:5px;
+border:3px solid #ccc;
+border-radius:4px
+}
+
+input[type=submit],input[type=button]{
+width:49%;
+margin:auto 0;
+padding:5px;
+margin-top: 5%;
+background-color:#ccc;
+border:none;
+border-radius:4px;
+color:#fff;
+font-family:'Droid Serif',serif
+}
+h2,p{
+text-align:center;
+font-family:'Droid Serif',serif
+}
